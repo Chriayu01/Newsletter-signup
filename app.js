@@ -60,7 +60,7 @@ app.post("/failure", function (req, res) {
 });
 
 app.listen(process.env.PORT || 3000,function(){
-  console.log(`server is running on port ${PORT}`);
+  console.log(`server is running on port ${process.env.PORT}`);
 });
 
 // api key - c97b5f00a96aad9b3c66ebc594f3ad36-us12
